@@ -6,9 +6,9 @@ PopChoice is a simple yet powerful web-based movie recommendation system, design
 
 ## 🚀 Project Highlights
 
-- **Modern Web Interface:** User-friendly, responsive web app for quick movie recommendations.
+- **Modern Web Interface:** hihhii, tampilann e elekkk coii. i just lear vector embeddings 
 - **Semantic Search:** Uses Google Gemini API to transform user preferences and movie data into vector embeddings for smarter, more relevant recommendations.
-- **Vector Database:** Employs Supabase with pgvector extension for efficient, scalable similarity search.
+- **Vector Database:** Employs Supabase
 - **Customizable Dataset:** Works with a curated movie dataset containing titles, descriptions, ratings, and more.
 - **Interactive Experience:** Users answer a few personalized questions, and the system recommends movies that best fit their mood and preferences.
 
