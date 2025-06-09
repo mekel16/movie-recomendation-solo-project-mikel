@@ -35,7 +35,7 @@ PopChoice is a simple yet powerful web-based movie recommendation system, design
 
 ## 📦 Dataset Example
 
-The dataset is a simple CSV or JSON file, each entry containing:
+The dataset is a simple txt,CSV or JSON file, each entry containing:
 
 - Title
 - Description
