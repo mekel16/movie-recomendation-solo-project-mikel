@@ -74,7 +74,6 @@ Traditional keyword-based search often fails to capture the nuance of user inten
 - [Gemini API](https://ai.google.dev/)
 - [Supabase](https://supabase.com/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
-- [pgvector](https://github.com/pgvector/pgvector)
 
 ---
 
