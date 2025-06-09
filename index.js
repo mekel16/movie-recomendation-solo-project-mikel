@@ -67,7 +67,6 @@ function setupPersonPage() {
         localStorage.setItem('personInputs', JSON.stringify(personInputs));
 
         if (currentPerson < jumlahOrang) {
-            // Bersihkan input & setup untuk orang berikutnya
             document.getElementById('favorite').value = "";
             selectedClassicNew = '';
             selectedMood = '';
@@ -86,6 +85,7 @@ function setupPersonPage() {
             alert('Input kosong!');
             return;
         }
+        // INI adalah kink workers tempat kita me menyimpannnn API dll secara aman, (backend)
         fetch('https://mich-movie-rekom-backend.michp.workers.dev/', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
@@ -97,7 +97,6 @@ function setupPersonPage() {
                 const data = JSON.parse(text);
                 if (data && Object.keys(data).length > 0) {
                     localStorage.setItem('movieRecommendation', JSON.stringify(data));
-                    // Ganti ke showPage, bukan window.location
                     showPage('hasilPage');
                     if (typeof renderCard === "function") renderCard();
                 } else {
