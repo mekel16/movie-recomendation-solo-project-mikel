@@ -113,9 +113,7 @@ function setupPersonPage() {
     }
 }
 
-// --- LOGIKA PERSON PAGE: Otomatis setup jika masuk ke personPage ---
 if (document.getElementById('personPage')) {
     setupPersonPage();
 }
 
-// --- LOGIKA HASIL PAGE dibiarkan di file HTML sesuai contoh sebelumnya ---
