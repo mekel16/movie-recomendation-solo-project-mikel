@@ -25,7 +25,7 @@ PopChoice is a simple yet powerful web-based movie recommendation system, design
 
 ## 💻 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript (Vanilla, SPA approach)
+- **Frontend:** HTML, CSS, JavaScript
 - **Embedding Model:** [Google Gemini API](https://ai.google.dev/)
 - **Database:** [Supabase](https://supabase.com/) with [pgvector](https://supabase.com/docs/guides/database/extensions/pgvector)
 - **Backend:** Cloudflare Workers (for API orchestration)
@@ -61,7 +61,6 @@ Oppenheimer: 2023 | R | 3h | 8.6 rating
 5. **Deploy the backend** (Cloudflare Workers) with the proper API keys and database URL.
 6. **Configure the frontend** (index.html, etc.) to connect with your deployed API.
 
-> **Note:** This project is meant for educational and experimental purposes. You can easily extend or adapt it for your own datasets or use cases!
 
 ---
 
@@ -76,12 +75,6 @@ Traditional keyword-based search often fails to capture the nuance of user inten
 - [Gemini API](https://ai.google.dev/)
 - [Supabase](https://supabase.com/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
-
----
-
-## 📄 License
-
-MIT License
 
 ---
 
