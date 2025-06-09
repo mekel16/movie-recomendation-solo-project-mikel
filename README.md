@@ -1,5 +1,7 @@
 # 🎬 PopChoice: Web-based Movie Recommendation System with Vector Embeddings
 
+[live demo](https://mekel16.github.io/movie-recomendation-solo-project-mikel/)
+
 PopChoice is a simple yet powerful web-based movie recommendation system, designed as an introduction project to vector embeddings and semantic search for beginners. This project leverages Google Gemini API for generating vector embeddings and Supabase as the vector database backend.
 
 ## 🚀 Project Highlights
