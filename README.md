@@ -2,7 +2,7 @@
 
 [live demo](https://mekel16.github.io/movie-recomendation-solo-project-mikel/)
 
-PopChoice is a simple yet powerful web-based movie recommendation system, designed as an introduction project to vector embeddings and semantic search for beginners. This project leverages Google Gemini API for generating vector embeddings and Supabase as the vector database backend.
+PopChoice is a simple web-based movie recommendation system, designed as an introduction project to vector embeddings and semantic search for beginners. This project leverages Google Gemini API for generating vector embeddings and Supabase as the vector database backend.
 
 ## 🚀 Project Highlights
 
@@ -27,9 +27,9 @@ PopChoice is a simple yet powerful web-based movie recommendation system, design
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Embedding Model:** [Google Gemini API](https://ai.google.dev/)
-- **Database:** [Supabase](https://supabase.com/) with [pgvector](https://supabase.com/docs/guides/database/extensions/pgvector)
+- **Database:** [Supabase](https://supabase.com/)
 - **Backend:** Cloudflare Workers (for API orchestration)
-- **Hosting:** Cloudflare Pages
+- **Hosting:** github
 
 ---
 
@@ -55,10 +55,10 @@ Oppenheimer: 2023 | R | 3h | 8.6 rating
 ## 🛠️ Getting Started
 
 1. **Clone this repo**
-2. **Set up Supabase project** and enable pgvector extension.
-3. **Obtain a Gemini API key** from Google AI Studio.
-4. **Upload your movie dataset** and generate embeddings for each entry using Gemini API.
-5. **Deploy the backend** (Cloudflare Workers) with the proper API keys and database URL.
+2. **Set up Supabase project**
+3. **Obtain a Gemini API key** 
+4. **embed your data with api key** and stote it to supabase
+5. **Deploy the backend** (Cloudflare Workers) with the proper API keys and database URL.ini tempat you nyimpen Api dan akses, kalo langsung di frontend ga aman brok
 6. **Configure the frontend** (index.html, etc.) to connect with your deployed API.
 
 
